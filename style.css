@@ -6,10 +6,12 @@ body {
 }
 
 img {
-    border-radius: 20px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-left: 20px;
-    margin-bottom: 20px;
+    border-radius: 10px;
+    border: solid 3px whitesmoke;
+    box-shadow: 3px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    max-width: 300px;
+    max-height: 300px;
+    margin: 10px;
 }
 
 h1 {
@@ -78,14 +80,6 @@ h2 {
 
 td {
     padding: 5px;
-}
-
-#photo-of-hero {
-    border-radius: 10px;
-    border: solid 3px whitesmoke;
-    box-shadow: 3px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    max-width: 300px;
-    max-height: 300px;
 }
 
 #bio-text {
