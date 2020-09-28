@@ -15,7 +15,7 @@ img {
 h1 {
     text-align: center;
     font-size: 80px;
-    font-family: 'Architects Daughter', cursive;
+    font-family: 'Lobster', cursive;
 }
 
 h3 {
@@ -36,10 +36,6 @@ h2 {
 
 
 /* Increase the font size of the h1 element */
-
-.header h1 {
-    font-size: 40px;
-}
 
 @media screen and (max-width: 600px) {
     .topnav.responsive {
@@ -68,6 +64,42 @@ h2 {
     }
 }
 
+#bio {
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 15px;
+    padding: 5px;
+    background: #284b63;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 30px;
+}
+
+td {
+    padding: 5px;
+}
+
+#photo-of-hero {
+    border-radius: 10px;
+    border: solid 3px whitesmoke;
+    box-shadow: 3px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#bio-text {
+    text-align: justify;
+}
+
+.container {
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    border: #888da7ff 1px solid;
+}
+
 #grid {
     display: grid;
     grid-template-rows: 1fr;
@@ -80,8 +112,8 @@ h2 {
 #grid>div {
     font-size: 15px;
     padding: 5px;
-    background: #888da7ff;
-    ;
+    background: #284b63;
+    color: white;
     border-radius: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-top: 20px;
@@ -134,21 +166,23 @@ h2 {
 
 .left {
     flex: 33%;
-    background-color: rgba(0, 255, 0, 0.4);
+    background-color: #353535;
+    color: white;
     padding: 20px;
     border-radius: 20px;
 }
 
 .central {
     flex: 33%;
-    background-color: #f1f1f1;
+    background-color: #3c6e71;
     padding: 20px;
     border-radius: 20px;
+    color: white;
 }
 
 .right {
     flex: 33%;
-    background-color: rgba(255, 0, 0, 0.4);
+    background-color: #d4d2d5;
     padding: 20px;
     border-radius: 20px;
 }
