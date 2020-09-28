@@ -11,6 +11,18 @@ img {
     box-shadow: 3px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     max-width: 300px;
     max-height: 300px;
+    margin: 10px;
+}
+
+.responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+@media only screen and (max-width: 500px) {
+    img {
+        margin: 0;
+    }
 }
 
 h1 {
@@ -33,6 +45,34 @@ h2 {
     border: 1px solid grey;
     margin: 30px;
     font-family: 'Rajdhani', sans-serif;
+}
+
+@media only screen and (max-width: 500px) {
+    h3 {
+        font-size: 15px;
+        margin: 10px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    h2 {
+        font-size: 18px;
+        margin: 10px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    p {
+        font-size: 12px;
+        margin: 5px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    li {
+        font-size: 12px;
+        margin: 5px;
+    }
 }
 
 
@@ -112,7 +152,7 @@ td {
     margin-top: 20px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 500px) {
     #grid {
         margin-top: 20px;
         display: block;
